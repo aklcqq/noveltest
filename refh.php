@@ -11,6 +11,6 @@ exec($cmd1, $output, $status);
 //exec($cmd4, $output, $status);
 
 $newURL = "fh.php";
-header('Location: https://luochengqi.com/noveltest/'.$newURL);
+header('Location: '.$newURL);
 
 ?>

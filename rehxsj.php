@@ -11,6 +11,6 @@ $cmd4 = "python3 hxsj.py";
 exec($cmd4, $output, $status);
 
 $newURL = "hxsj.php";
-header('Location: https://luochengqi.com/noveltest/'.$newURL);
+header('Location: '.$newURL);
 
 ?>

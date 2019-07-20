@@ -11,6 +11,6 @@ exec($cmd2, $output, $status);
 //exec($cmd4, $output, $status);
 
 $newURL = "gx.php";
-header('Location: https://luochengqi.com/noveltest/'.$newURL);
+header('Location: '.$newURL);
 
 ?>
