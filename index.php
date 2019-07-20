@@ -35,15 +35,14 @@ echo <<<_END
 
 <div class="vertical-menu">
   <a href="index.php" class="active">Novel page</a>
+<a href='fh.php'>覆汉</a>
+<a href='gx.php'>归向</a>
+<a href='zhmy.php'>召唤梦魇</a>
+<a href='hxsj.php'>幻想世界大穿越</a>
+<!--NEWLINE-->
+<a href='refresh.php'>Refresh all</a>
+<a href='del.php'>Remove all</a>
+</div></body></html>
 _END;
-
-echo "<a href='fh.php'>覆汉</a>";
-echo "<a href='gx.php'>归向</a>";
-echo "<a href='zhmy.php'>召唤梦魇</a>";
-echo "<a href='hxsj.php'>幻想世界大穿越</a>";
-echo "<a href='refresh.php'>Refresh all</a>";
-echo "<a href='del.php'>Remove all</a>";
-echo "</div></body></html>";
-
 ?>
 
