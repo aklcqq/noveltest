@@ -149,7 +149,7 @@ for link in soup.find_all('a'):
 #print(lists)
 
 for list in lists:
-    link = re.findall(rewhatrufinding ,list)
+    link = re.findall(rewhatrufinding ,str(list))
     if len(link) > 0:
         chapterurls.append(link)
 for chapterurl in chapterurls:
